@@ -138,6 +138,5 @@ volumes:
   static:
 
 networks:
-  homelab:
-    external:
-      name: homelab
+    homelab:
+      external: true
