@@ -130,6 +130,12 @@ volumes:
     driver: local
   wger-redis-data:
     driver: local
+  wger-media:
+    driver: local
+  wger-redis-data:
+    driver: local
+  wger-static:
+    driver: local
 
   # Heads up, if you remove these volumes and use folders directly you need to chown them
   # to the UID and GID 1000 even if it doesn't exist on your system. Also, they should
