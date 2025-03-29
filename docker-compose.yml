@@ -124,11 +124,11 @@ services:
       - homelab
 
 volumes:
-  postgres-data:
+  wger-postgres-data:
     driver: local
-  celery-beat:
+  wger-celery-beat:
     driver: local
-  redis-data:
+  wger-redis-data:
     driver: local
 
   # Heads up, if you remove these volumes and use folders directly you need to chown them
