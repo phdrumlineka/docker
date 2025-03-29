@@ -132,8 +132,6 @@ volumes:
     driver: local
   wger-media:
     driver: local
-  wger-redis-data:
-    driver: local
   wger-static:
     driver: local
 
