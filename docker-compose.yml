@@ -39,7 +39,7 @@ services:
       - wger-static:/wger/static:ro
       - wger-media:/wger/media:ro
     ports:
-      - "80:80"
+      - "8081:80"
     healthcheck:
       test: service nginx status
       interval: 10s
