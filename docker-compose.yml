@@ -30,7 +30,7 @@ services:
     networks:
       - homelab
 
-        nginx:
+  nginx:
     image: nginx:stable
     depends_on:
       - web
