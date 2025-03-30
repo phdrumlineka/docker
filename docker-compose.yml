@@ -35,7 +35,7 @@ services:
     depends_on:
       - web
     volumes:
-      - ./config/nginx.conf:/etc/nginx/conf.d/default.conf
+      - /data/compose/35/config/nginx.conf:/etc/nginx/conf.d/default.conf
       - wger-static:/wger/static:ro
       - wger-media:/wger/media:ro
     ports:
